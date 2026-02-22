@@ -31,8 +31,8 @@ void loop() {
 
     // -------- DIGITAL MODE --------
 
-    // TODO 7:
-    // Turn ON red (digital HIGH)
+    digitalWrite(redPin, HIGH);
+    delay(1000);
 
     // TODO 8:
     // Turn OFF red
