@@ -14,8 +14,7 @@ int redPin = 9;
 
 int greenPin = 10;
 
- // TODO 3:
- // Define BLUE pin (Use 11)
+int bluePin = 11;
 
 void setup() {
 
