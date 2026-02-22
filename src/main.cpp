@@ -45,6 +45,5 @@ void loop() {
 
     analogWrite(bluePin, 64);
 
-    // TODO 12:
-    // Add delay for visible transition
+    delay(2000);
 }
