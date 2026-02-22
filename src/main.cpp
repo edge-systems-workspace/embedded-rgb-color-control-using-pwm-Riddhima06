@@ -24,8 +24,7 @@ void setup() {
     pinMode(greenPin, OUTPUT);
     pinMode(bluePin, OUTPUT);
 
-    // TODO 6:
-    // Print initialization message
+    Serial.println("RGB LED Control System Initialized");
 }
 
 void loop() {
