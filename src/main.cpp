@@ -34,8 +34,8 @@ void loop() {
     digitalWrite(redPin, HIGH);
     delay(1000);
 
-    // TODO 8:
-    // Turn OFF red
+    digitalWrite(redPin, LOW);
+    delay(1000);
 
     // -------- ANALOG (PWM) MODE --------
 
