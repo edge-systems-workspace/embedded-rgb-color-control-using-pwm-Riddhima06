@@ -20,8 +20,9 @@ void setup() {
 
     Serial.begin(9600);
 
-    // TODO 5:
-    // Configure RGB pins as OUTPUT
+    pinMode(redPin, OUTPUT);
+    pinMode(greenPin, OUTPUT);
+    pinMode(bluePin, OUTPUT);
 
     // TODO 6:
     // Print initialization message
