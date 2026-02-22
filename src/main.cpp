@@ -43,8 +43,7 @@ void loop() {
 
     analogWrite(greenPin, 128);
 
-    // TODO 11:
-    // Set BLUE brightness using analogWrite()
+    analogWrite(bluePin, 64);
 
     // TODO 12:
     // Add delay for visible transition
