@@ -41,8 +41,7 @@ void loop() {
 
     analogWrite(redPin, 255);
 
-    // TODO 10:
-    // Set GREEN brightness using analogWrite()
+    analogWrite(greenPin, 128);
 
     // TODO 11:
     // Set BLUE brightness using analogWrite()
